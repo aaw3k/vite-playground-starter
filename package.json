@@ -1,0 +1,17 @@
+{
+  "name": "vite-vanilla-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.5.0",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.9"
+  }
+}
