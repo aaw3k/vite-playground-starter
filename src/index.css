@@ -1,3 +1,5 @@
+@layer reset, base;
+
 @custom-media --OSdark (prefers-color-scheme: dark);
 
 :root {
@@ -10,42 +12,46 @@
   }
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@layer reset {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  *:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
 }
 
-*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
-  all: unset;
-  display: revert;
-}
+@layer base {
+  html {
+    block-size: 100%;
+    color-scheme: light dark;
+  }
 
-html {
-  block-size: 100%;
-  color-scheme: light dark;
-}
+  body {
+    min-block-size: 100vh;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
 
-body {
-  min-block-size: 100vh;
-  font-family: system-ui, sans-serif;
-  line-height: 1.5;
+    display: grid;
+    place-items: center;
+    text-align: center;
 
-  display: grid;
-  place-items: center;
-  text-align: center;
+    background: var(--background);
+    color: var(--foreground);
+  }
 
-  background: var(--background);
-  color: var(--foreground);
-}
+  h1 {
+    font-size: clamp(2ch, 1ch + 10vmin, 5ch);
+    font-weight: 700;
+  }
 
-h1 {
-  font-size: clamp(2ch, 1ch + 10vmin, 5ch);
-  font-weight: 700;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
-  cursor: pointer;
+  a {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 }
