@@ -11,9 +11,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "🚀/*": ["./src/*"]
+      "🚀/*": ["./client/*"]
     },
     "checkJs": true
   },
-  "include": ["src"]
+  "include": ["client"]
 }

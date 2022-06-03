@@ -2,11 +2,11 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
-  root: 'src',
+  root: 'client',
 
   resolve: {
     alias: {
-      '🚀': new URL('src', import.meta.url).pathname,
+      '🚀': new URL('client', import.meta.url).pathname,
     },
   },
 
@@ -15,7 +15,7 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'src/index.html'),
+        main: resolve(__dirname, 'client/index.html'),
       },
     },
   },
