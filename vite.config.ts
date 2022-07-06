@@ -11,6 +11,9 @@ export default defineConfig({
   },
 
   build: {
+    target: 'esnext',
+    polyfillDynamicImport: false,
+
     outDir: '../dist',
     emptyOutDir: true,
     rollupOptions: {
