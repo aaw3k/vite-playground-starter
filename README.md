@@ -5,7 +5,7 @@
 This is a starter project for Vite.
 
 - **💻 View:** [demo site](https://vite-vanilla-starter.vercel.app)
-- **📙 Language**: [JavaScript](https://www.javascript.com/)
+- **📙 Language**: [TypeScript](https://www.typescriptlang.org/)
 - **⏩ Frontend tooling**: [Vite](https://vitejs.dev/)
 - **🎨 Styling**: [PostCSS preset-env](https://preset-env.netlify.app/)
 - **📚 Code Formatter**: [Prettier](https://prettier.io/)
