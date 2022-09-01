@@ -14,8 +14,8 @@ This is a starter project for Vite.
 # Running Locally
 
 ```bash
-$ git clone https://github.com/aaw3k/vite-vanilla-starter.git
-$ cd vite-vanilla-starter
-$ yarn
-$ yarn dev
+git clone https://github.com/aaw3k/vite-vanilla-starter.git
+cd vite-vanilla-starter
+yarn
+yarn dev
 ```
