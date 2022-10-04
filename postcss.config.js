@@ -1,9 +1,7 @@
-const postcssFlexbugsFixes = require('postcss-flexbugs-fixes');
-const postcssPresetEnv = require('postcss-preset-env');
+const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   plugins: [
-    postcssFlexbugsFixes(),
     postcssPresetEnv({
       stage: 0,
       features: {
@@ -16,8 +14,10 @@ module.exports = {
         'focus-within-pseudo-class': false,
         'focus-visible-pseudo-class': false,
         'color-functional-notation': false,
-        'cascade-layers': false,
-      },
-    }),
-  ],
-};
+        'double-position-gradients': false,
+        'has-pseudo-class': false,
+        'cascade-layers': false
+      }
+    })
+  ]
+}
