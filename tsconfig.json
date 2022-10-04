@@ -1,40 +1,23 @@
 {
   "compilerOptions": {
-    // Enable top-level await, and other modern ESM features.
     "target": "ESNext",
     "module": "ESNext",
-    // "ESNext" is the default, but we need to add "DOM" to get the DOM lib.
     "lib": ["ESNext", "DOM"],
-    // Enable class fields in ESNext.
     "useDefineForClassFields": true,
-    // Enable node-style module resolution, for things like npm package imports.
     "moduleResolution": "Node",
-    // Enable JSON imports.
     "resolveJsonModule": true,
-    // Enable stricter transpilation for better output.
     "isolatedModules": true,
-    // Enable strict property initialization, for things like class properties.
     "noEmit": true,
-    // Enable ES Module Interop, for things like class properties.
     "esModuleInterop": true,
-    // Enable strict mode, for things like type-checking.
     "strict": true,
-    // Skip type-checking of libraries, for things like type-checking.
     "skipLibCheck": true,
-    // Enable source maps.
     "sourceMap": true,
-    // Enable noUnusedLocals, for things like type-checking.
     "noUnusedLocals": true,
-    // Enable noUnusedParameters, for things like type-checking.
     "noUnusedParameters": true,
-    // Enable noImplicitReturns, for things like type-checking.
     "noImplicitReturns": true,
-    // This is where we define our custom paths.
     "paths": {
-      // This is a glob, so you can use it to match multiple files.
       "🚀/*": ["./client/*"]
     }
   },
-  // Include all files in the client directory.
   "include": ["client"]
 }
