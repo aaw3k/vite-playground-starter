@@ -16,6 +16,6 @@ This is a starter project for Vite.
 ```bash
 git clone https://github.com/aaw3k/vite-vanilla-starter.git
 cd vite-vanilla-starter
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ```
