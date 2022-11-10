@@ -5,7 +5,7 @@ export default defineConfig({
   root: 'client',
   resolve: {
     alias: {
-      '🚀': resolve(__dirname, 'client')
+      '@': resolve(__dirname, 'client')
     }
   },
   build: {

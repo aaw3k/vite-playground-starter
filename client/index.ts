@@ -1,3 +1,3 @@
-import { setupCounter } from '🚀/counter'
+import { setupCounter } from '@/counter'
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
