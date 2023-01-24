@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
 
-    <title>Vite Vanilla Starter</title>
+    <title>Vite Playground Starter</title>
     <meta name="description" content="🚀" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,16 +11,28 @@
     <meta name="theme-color" content="Canvas" />
     <meta name="color-scheme" content="light dark" />
 
-    <link rel="icon" href="assets/favicon.ico" sizes="any" />
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/assets/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
 
-    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="/index.css" />
   </head>
 
   <body>
     <main>
-      <h1>Hello Vite!</h1>
-      <button id="counter" aria-label="Count"></button>
+      <div class="home">
+        <h1>Hello Vite!</h1>
+        <div class="home-button">
+          <div aria-hidden="true" class="home-stroke"></div>
+          <button id="counter">Count is 0</button>
+        </div>
+        <a
+          href="https://github.com/aaw3k/vite-playground-starter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View on GitHub ❯❯
+        </a>
+      </div>
     </main>
 
     <script type="module" src="/index.ts"></script>

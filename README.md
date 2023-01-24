@@ -1,22 +1,29 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Faaw3k%2Fvite-vanilla-starter)
-[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/aaw3k/vite-vanilla-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Faaw3k%2Fvite-playground-starter)
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https:///pr.new/aaw3k/vite-playground-starter)
 
-# Vite Vanilla Starter
+# Vite Playground Starter
 
-This is a starter project for Vite.
+Vite Playground Starter is an easy-to-use starter kit for experimenting with the latest web technologies, featuring HTML5, CSS3, TypeScript, and JavaScript support, enabling you to quickly create and test new ideas.
 
-- **💻 View:** [demo site](https://vite-vanilla-starter.vercel.app)
-- **📙 Language**: [TypeScript](https://www.typescriptlang.org/)
-- **⏩ Frontend tooling**: [Vite](https://vitejs.dev/)
-- **🎨 Styling**: [PostCSS preset-env](https://preset-env.netlify.app/)
-- **📚 Code Formatter**: [Prettier](https://prettier.io/)
-- **🚀 Deployment**: [Vercel](https://vercel.com/)
+## Features
 
-# Running Locally
+- [TypeScript](https://www.typescriptlang.org/) support
+- [Vite 4.x](https://vitejs.dev/) for frontend tooling
+- [PostCSS preset-env](https://preset-env.netlify.app/) for styling
+- [Rome](https://rome.tools/) & [Prettier](https://prettier.io/) for code formatting
+- [Vercel](https://vercel.com/) for deployment
+
+## Template
+
+This repository is a template, meaning you can create a new repository from it by clicking the "[Use as a template](https://github.com/aaw3k/vite-playground-starter/generate)" button.
+
+## Running Locally
+
+Vite requires Node.js version 16.13+.
 
 ```bash
-git clone https://github.com/aaw3k/vite-vanilla-starter.git
-cd vite-vanilla-starter
+git clone https://github.com/aaw3k/vite-playground-starter.git
+cd vite-playground-starter
 pnpm install
 pnpm dev
 ```
