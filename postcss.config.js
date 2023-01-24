@@ -16,8 +16,8 @@ module.exports = {
         'color-functional-notation': false,
         'double-position-gradients': false,
         'has-pseudo-class': false,
-        'cascade-layers': false
-      }
-    })
-  ]
+        'cascade-layers': false,
+      },
+    }),
+  ],
 }

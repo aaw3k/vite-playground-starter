@@ -5,17 +5,17 @@ export default defineConfig({
   root: 'client',
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'client')
-    }
+      '@': resolve(__dirname, 'client'),
+    },
   },
   build: {
     target: 'esnext',
-    outDir: '../dist',
+    outDir: '../dist/',
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'client/index.html')
-      }
-    }
-  }
+        main: resolve(__dirname, 'client/index.html'),
+      },
+    },
+  },
 })
