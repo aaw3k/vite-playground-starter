@@ -22,7 +22,7 @@
 
 @layer demo.support {
   :root {
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: system-ui, sans-serif;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
