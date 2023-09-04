@@ -19,7 +19,7 @@ This repository is a template, meaning you can create a new repository from it b
 
 ## Running Locally
 
-Vite requires Node.js version 16.13+.
+To run the starter kit locally, follow these steps:
 
 ```bash
 git clone https://github.com/aaw3k/vite-playground-starter.git
@@ -27,3 +27,5 @@ cd vite-playground-starter
 pnpm install
 pnpm dev
 ```
+
+> Vite requires Node.js version 16+.
