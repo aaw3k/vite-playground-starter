@@ -8,9 +8,8 @@ Vite Playground Starter is an easy-to-use starter kit for experimenting with the
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/) support
-- [Vite 4.x](https://vitejs.dev/) for frontend tooling
+- [Vite 5.x](https://vitejs.dev/) for frontend tooling
 - [PostCSS preset-env](https://preset-env.netlify.app/) for styling
-- [Rome](https://rome.tools/) & [Prettier](https://prettier.io/) for code formatting
 - [Vercel](https://vercel.com/) for deployment
 
 ## Template
@@ -28,4 +27,4 @@ pnpm install
 pnpm dev
 ```
 
-> Vite requires Node.js version 16+.
+> Vite requires Node.js version 18+. 20+.
